@@ -1,0 +1,5 @@
+none                                                                                                        492K  4.0K  488K   1% /dev
+udev                                                                                                         15G     0   15G   0% /dev/tty
+tmpfs                                                                                                       100K     0  100K   0% /dev/lxd
+tmpfs                                                                                                       100K     0  100K   0% /dev/.lxd-mounts
+tmpfs                                                                                                        15G     0   15G   0% /dev/shm

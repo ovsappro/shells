@@ -1,0 +1,5 @@
+/dev
+/dev/tty
+/dev/lxd
+/dev/.lxd-mounts
+/dev/shm
