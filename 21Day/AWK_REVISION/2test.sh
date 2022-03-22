@@ -4,9 +4,10 @@ function concat()
 	# V V IMPORTANT --> below you have to read the whole things that is passed
 	#check out the A=(${@}) this is very necessary to assign input as an array entry ; for single entries it is ${1}
 	local A=(${@})
+	echo ${A[@]}
 	for ((j=1;j<5;j++)) # we could not start with 0, because 0%2=0
 	do
-		printf " ${ARR[$j]};"
+		printf " ${A[$((j-1))]};"
 		CHK=$((j%2))
 		if [[ $CHK -eq 0  ]]
 		then

@@ -1,0 +1,14 @@
+1234 5678 9101 1234  
+2999 5178 9101 2234  
+9999 5628 9201 1232  
+8888 3678 9101 1232
+Filesystem                                                                                                  Size  Used Avail Use% Mounted on
+/var/snap/lxd/common/lxd/storage-pools/default/containers/production-2ada2e2d5b6ee0f2-1647150921075/rootfs  3.7G  2.7G 1012M  73% /
+none                                                                                                        492K  4.0K  488K   1% /dev
+udev                                                                                                         15G     0   15G   0% /dev/tty
+tmpfs                                                                                                       100K     0  100K   0% /dev/lxd
+tmpfs                                                                                                       100K     0  100K   0% /dev/.lxd-mounts
+tmpfs                                                                                                        15G     0   15G   0% /dev/shm
+tmpfs                                                                                                        15G  520K   15G   1% /run
+tmpfs                                                                                                       5.0M     0  5.0M   0% /run/lock
+tmpfs                                                                                                        15G     0   15G   0% /sys/fs/cgroup
